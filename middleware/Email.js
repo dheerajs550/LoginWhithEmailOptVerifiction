@@ -9,7 +9,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const SendVerfionCode = async (email, verficationCode, name) => {
   try {
     const response = await resend.emails.send({
-      from: "onboarding@resend.dev",   // Resend ka default sender
+      from: "dheerajsharma550@gmail.com",   // Resend ka default sender
       to: email,
       subject: "Verify your Email ✔",
       html: getEmailTemplate(name, verficationCode),
@@ -24,7 +24,7 @@ export const SendVerfionCode = async (email, verficationCode, name) => {
 export const welcomeEmail = async (email, name) => {
   try {
     const response = await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: "dheerajsharma550@gmail.com",
       to: email,
       subject: "Welcome Email ✔",
       html: getWelcomeTemplate(name),
