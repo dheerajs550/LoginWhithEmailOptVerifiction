@@ -1,3 +1,4 @@
+// in this file we will write code for sending email using resend service, before it we are useing nodemeiler for it 
 import { Resend } from "resend";
 import { getEmailTemplate, getWelcomeTemplate } from "../libs/EmailTemplate.js";
 
