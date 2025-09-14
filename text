@@ -1,0 +1,8 @@
+# username=dheeraj
+# password=12345Dheeraj
+
+DB_USER=dheeraj
+DB_PASS=12345Dheeraj
+DB_NAME=productDB
+# Local API URL
+NEXT_PUBLIC_API_URL=http://localhost:3000

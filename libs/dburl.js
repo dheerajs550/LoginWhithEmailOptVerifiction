@@ -1,0 +1,3 @@
+import dotenv from "dotenv"
+
+export const connectionSrt = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.hxqglx0.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=Cluster0`;
